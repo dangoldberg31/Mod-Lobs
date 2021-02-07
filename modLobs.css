@@ -5,4 +5,349 @@ html {
 h1 {
     text-align: center;
     font-size: 60px;
+    i
+}
+
+
+
+
+
+
+
+
+html {
+    box-sizing: border-box;
+    font-family: Nunito;
+    font-size: 14px;
+    background-color:  black;
+    width: 99%;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+p {
+    font-size: 18px;
+    font-family: nunito;
+}
+
+li {
+    font-size: 16px;
+    font-family: nunito;
+}
+
+nav {
+    position: fixed;
+    z-index: 10;
+    width: 95%;
+    display: inline-block;
+    top: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li {
+    font-size: 20px;
+    margin: 0px 5px;
+    padding: 6px;
+    border-radius: 10px;
+    background-color: hsl(206, 50%, 50%);
+    float: right;
+    text-align: center;
+    list-style: none;
+    font-weight: 600;
+}
+
+header {
+    position: relative;
+    background-color: hsl(206, 50%, 50%);
+    width: 100%;
+    padding: 10px 10px 0px 10px;
+    display: inline-block;
+}
+
+section {
+    width: 95%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+#face {
+    position: fixed;
+    height: 150px;
+    border-radius: 150px;
+    z-index: 20;
+    margin-left: 10px;
+}
+
+h1.title {
+    font-family: Cinzel;
+    font-size: 90px;
+    position: relative;
+    margin-left: 180px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    color: black;
+    padding: 0px;
+}
+
+h2.subtitle {
+    font-size: 32px;
+    margin-top: 0px;
+    position: relative;
+    margin-left: 0px;
+    padding: 10px 0px 0px 0px;
+    font-family: Nunito;
+}
+
+div .headertext {
+    padding: 0px;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 32px;
+    margin-top: 10px;
+    background-color:hsl(206, 50%, 50%);
+    display: inline-block;
+    padding: 10px;
+    line-height: 1em;
+    border-radius: 10px;
+    font-family: bebas neue;
+}
+
+.colors {
+    background-color: hsl(206, 50%, 90%);
+    width: 95%;
+    padding: 40px 20px;
+    display: inline-block;
+    position: relative;
+    margin-top: 15px;
+}
+
+.colors h3 {
+    padding: 40px;
+    height: 120px;
+    width: 380px;
+    margin: 30px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 10px;
+    font-family: bebas neue;
+    margin-left: 60px;
+    border: 1px solid black;
+}
+
+.colors span {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.dysthymia {
+    background-color: hsl(206, 50%, 50%);
+}
+    
+.queezygreen {
+    background-color: hsla(161, 50%, 80%, 1);
+}
+
+.banalite {
+    background-color: hsl(206, 50%, 90%);
+}
+
+
+.fonts {
+    width: 95%;
+    padding: 40px 20px;
+    background-color: hsla(161, 50%, 80%, 1);
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.fonts h3 {
+    font-size: 24px;
+}
+
+.fonts p {
+    font-size: 24px;
+    line-height: normal;
+    margin: 5px;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+#fontcontainer {
+}
+
+.fonts .bold {
+    font-weight: bold;
+}
+
+.fonts .italics {
+    font-style: italic;
+}
+
+.nunito {
+    font-family: Nunito;
+}
+
+div.nunito {
+    border: 1px solid black;
+    display: inline-block;
+    width: 30%;
+    padding: 20px 10px;
+    border-radius: 15px;
+    margin: 5px;
+    background-color: hsl(206, 50%, 90%);
+    position:relative;
+}
+
+div.nunito p {
+    font-family: Nunito;
+}
+
+.bebasneue {
+    font-family: Bebas Neue;
+}
+
+div.bebasneue {
+    border: 1px solid black;
+    display: inline-block;
+    width: 30%;
+    padding: 100px 10px;
+    border-radius: 15px;
+    margin: 5px;
+    background-color: hsl(206, 50%, 90%);
+    position:relative;
+}
+
+div.bebasneue p {
+    font-family: Bebas Neue;
+}
+
+.cinzel {
+    font-family: cinzel;
+}
+
+div.cinzel {
+    border: 1px solid black;
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 5px;
+    background-color: hsl(206, 50%, 90%);
+    position:relative;
+}
+
+div.cinzel p {
+    font-family: cinzel;
+}
+
+.textstyles {
+    width: 95%;
+    padding: 40px 20px;
+    background-color: hsl(206, 50%, 90%);
+    border-radius: 10px;
+}
+
+.design {
+    width: 95%;
+    padding: 40px 20px;
+    border-radius: 10px;
+    background-color: hsla(161, 50%, 80%, 1);
+}
+
+h1.sample {
+    font-family: Cinzel;
+    font-size: 60px;
+    position: relative;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.photos img {
+    width: 95%;
+    border: 1px solid black;
+}
+
+section.photos {
+    padding: 15px;
+}
+
+
+figure.landscape3x1  {
+    text-align: center;
+    font-size: 16px;
+    padding: 15px;
+    border:5px solid white;
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    background-color: white;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+figure.landscape2x1 {
+    text-align: center;
+    font-size: 16px;
+    padding: 15px;
+    border:5px solid white;
+    display: inline-block;
+    position: relative;
+    width: 46.5%;
+    background-color: white;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+figcaption {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+figure.portrait2x1 {
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    border:5px solid white;
+    display: inline-block;
+    position: relative;
+    width: 46.5%;
+    background-color: white;
+    border-radius: 15px;
+    margin: 5px;
+}
+.founder {
+    height: 100px;
+    border-radius: 100px;
+}
+
+footer {
+    text-align: center;
+    padding: 5px 5px;
+    margin: 10px;
+    position: relative;
+    left: 60px;
+    right: 60px;
+    font-size: 18px;
+    width: 75%;
+    z-index: 9;
+    bottom: 0;
+    color: white;
+}
+
+span.ggi {
+    font-weight: 700;
 }
